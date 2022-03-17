@@ -8,7 +8,7 @@ var socket = io.connect("http://localhost:3000");
 function joinRoom() {
   socket.emit("join_room", { user_email: userMail, chatroom: currentChatRoom }),
     socket.on("user_joined", function (e) {
-      console.log("New User Joined", e);
+      //console.log("New User Joined", e);
     });
 }
 socket.on("connect", function () {

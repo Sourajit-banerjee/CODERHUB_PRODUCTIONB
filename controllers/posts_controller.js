@@ -13,7 +13,7 @@ module.exports.create = async function(req,res){
 
        
 
-        console.log(post);
+        //console.log(post);
         if(req.xhr){
             post = await Post.findById(post._id).populate('user');
             return res.status(200).json({
