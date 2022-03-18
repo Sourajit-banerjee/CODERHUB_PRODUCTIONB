@@ -4,9 +4,17 @@
   "description": "social app for coders",
   "main": "index.js",
   "scripts": {
+ heroku_branch
+    "start": "set CODEHUB_ENVIRONMENT=production & node  index.js",
+
     "start": "NODE_ENV=production node index.js",
+ master
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod_start": "set CODEHUB_ENVIRONMENT=production & nodemon index.js"
+  },
+  "engines": {
+    "npm": "6.14.5",
+    "node": "12.18.2"
   },
   "author": "Sourajit Banerjee",
   "license": "ISC",
