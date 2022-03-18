@@ -4,14 +4,13 @@
   "description": "social app for coders",
   "main": "index.js",
   "scripts": {
-    "start": "CODEHUB_ENVIRONMENT=production & node index.js",
+    "start": "set CODEHUB_ENVIRONMENT=production & nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod_start": "set CODEHUB_ENVIRONMENT=production & nodemon index.js"
   },
-  "engines":{
-    "npm":"6.14.5",
-    "node":"12.18.2"
-
+  "engines": {
+    "npm": "6.14.5",
+    "node": "12.18.2"
   },
   "author": "Sourajit Banerjee",
   "license": "ISC",
@@ -46,9 +45,7 @@
     "rotating-file-stream": "^2.1.3",
     "socket.io": "^2.4.1"
   },
- 
   "devDependencies": {
     "gulp": "^4.0.2"
   }
-  
 }
