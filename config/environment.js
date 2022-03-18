@@ -50,8 +50,8 @@ const production = {
         port: 587,
         secure: false,
         auth : {
-             user :process.env.CodeHub_GMAIL_USERNAME,   //"codehub.production@gmail.com",process.env.CODEHUB_GMAIL_USERNAME,
-            pass :process.env.CodeHub_GMAIL_PASSWORD   //"codehub@321123"    process.env.CODEHUB_GMAIL_PASSWORD
+             user :process.env.CodeHub_GMAIL_USERNAME,   
+            pass :process.env.CodeHub_GMAIL_PASSWORD   
         }
     },
     google_client_id : "724827921654-0q2jpl7cs1sqv9rsos52j0g2h47ldarf.apps.googleusercontent.com",
