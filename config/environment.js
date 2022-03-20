@@ -32,7 +32,7 @@ const development = {
     google_client_secret : "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",
     google_call_back_url : "http://localhost:4000/users/auth/google/callback",
     github_cal_back_url : "http://localhost:4000/auth/github/callback",
-    jwt_secret : 'codeial',
+    jwt_secret : 'codehub',
     morgan : {
         mode : 'dev',
         options : {stream : accessLogstream}

@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 const env = require("./environment");
-//`mongodb+srv://mongoUser:mongoUser@cluster0.qyh17.mongodb.net/socialarray?retryWrites=true&w=majority`
+
 //CHANGED
+//while deployed change to mongodb atlas
 mongoose.connect(
   `mongodb://localhost/${env.db}`
 );

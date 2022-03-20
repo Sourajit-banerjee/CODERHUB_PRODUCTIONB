@@ -4,7 +4,7 @@ let selfUser,
   currentChatRoom,
   chatArea = $(".chat-room-display"),
   roomList = [];
-var socket = io.connect("http://localhost:3000");
+var socket = io.connect("https://codehub-production.herokuapp.com/");
 function joinRoom() {
   socket.emit("join_room", { user_email: userMail, chatroom: currentChatRoom }),
     socket.on("user_joined", function (e) {
